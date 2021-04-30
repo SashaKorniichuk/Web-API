@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" name="Add" >
+        <label for="name">Name :</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="rating"> Rating:</label>
+        <input type="number" id="rating" name="rating"><br><br>
+        <label for="genre">Genre :</label>
+        <input type="text" id="genre" name="genre"><br><br>
+        <label for="image">Image :</label>
+        <input type="text" id="image" name="image" placeholder="url"><br><br>
+        <input type="button" onclick="AddFilm()" value="Add">
+        <input type="button" onclick="Edit()" value="Edit">
+     </form>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>    
+      <script src="script2.js"></script>
+</body>
+</html>
